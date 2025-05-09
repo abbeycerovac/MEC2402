@@ -46,7 +46,7 @@ void loop() {
 void mainFunction() {
 
   bigServo.write(180);              // tell servos to go to position in variable 'pos'
-
+//for big servo UP=0, STRAIGHT=90, DOWN = 180
   smallServo1.write(90);
   smallServo2.write(90);
   
